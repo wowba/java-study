@@ -1,4 +1,4 @@
-package basic;
+package java_basic.basic;
 
 // class 명은 파일 명과 동일해야 한다.
 public class HelloJava {

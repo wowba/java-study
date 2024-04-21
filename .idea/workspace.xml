@@ -5,17 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7e890c2e-5d01-451b-afa9-00e5ba3b6cde" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-start.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/basic/HelloJava.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/basic/HelloJava2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/basic/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java_basic/var/VarBasic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java_basic/var/VarEx1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java_basic/var/VarEx2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java_basic/var/VarEx3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java_basic/var/VarType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/basic/HelloJava.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java_basic/basic/HelloJava.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/basic/HelloJava2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/basic/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/java_basic/readme.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +38,6 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
@@ -48,6 +45,10 @@
     "Application.HelloJava.executor": "Run",
     "Application.HelloJava2.executor": "Run",
     "Application.Main.executor": "Run",
+    "Application.Problem.executor": "Run",
+    "Application.Var1.executor": "Debug",
+    "Application.VarEx2.executor": "Run",
+    "Application.VarType.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
@@ -62,33 +63,84 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.HelloJava">
-    <configuration name="HelloJava" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basic.HelloJava" />
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/java_basic" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.VarEx3">
+    <configuration name="VarBasic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java_basic.var.VarBasic" />
       <module name="java-start" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="java_basic.var.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HelloJava2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basic.HelloJava2" />
+    <configuration name="VarEx1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java_basic.var.VarEx1" />
       <module name="java-start" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="java_basic.var.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+    <configuration name="VarEx2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java_basic.var.VarEx2" />
       <module name="java-start" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="java_basic.var.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VarEx3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java_basic.var.VarEx3" />
+      <module name="java-start" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="java_basic.var.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VarType" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java_basic.var.VarType" />
+      <module name="java-start" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="java_basic.var.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.HelloJava" />
-        <item itemvalue="Application.HelloJava2" />
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.VarEx3" />
+        <item itemvalue="Application.VarEx2" />
+        <item itemvalue="Application.VarEx1" />
+        <item itemvalue="Application.VarType" />
+        <item itemvalue="Application.VarBasic" />
       </list>
     </recent_temporary>
   </component>
@@ -109,11 +161,27 @@
       <option name="presentableId" value="Default" />
       <updated>1713110483690</updated>
       <workItem from="1713110485558" duration="334000" />
-      <workItem from="1713357678345" duration="3234000" />
+      <workItem from="1713357678345" duration="6020000" />
+      <workItem from="1713523981288" duration="4321000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/java_basic/var/VarEx1.java</url>
+          <line>3</line>
+          <properties class="java_basic.var.VarEx1" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
