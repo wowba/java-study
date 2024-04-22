@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7e890c2e-5d01-451b-afa9-00e5ba3b6cde" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/java_basic/operator/Operator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/java_basic/operator/OperatorEx1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java_basic/if_else_switch/CondOp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java_basic/if_else_switch/IfEx1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java_basic/if_else_switch/IfEx2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java_basic/if_else_switch/If_else.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java_basic/if_else_switch/Switch.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/java_basic/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/java_basic/readme.md" afterDir="false" />
     </list>
@@ -37,11 +40,15 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.CondOp.executor": "Run",
     "Application.HelloJava.executor": "Run",
     "Application.HelloJava2.executor": "Run",
+    "Application.If_else.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.Operator1.executor": "Run",
+    "Application.OperatorEx1.executor": "Run",
     "Application.Problem.executor": "Run",
+    "Application.Switch.executor": "Run",
     "Application.Var1.executor": "Debug",
     "Application.VarEx2.executor": "Run",
     "Application.VarEx3.executor": "Run",
@@ -65,7 +72,33 @@
       <recent name="$PROJECT_DIR$/src/java_basic" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.OperatorEx1">
+  <component name="RunManager" selected="Application.CondOp">
+    <configuration name="CondOp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java_basic.if_else_switch.CondOp" />
+      <module name="java-start" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="java_basic.if_else_switch.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="If_else" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java_basic.if_else_switch.If_else" />
+      <module name="java-start" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="java_basic.if_else_switch.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Operator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="java_basic.operator.Operator" />
       <module name="java-start" />
@@ -92,38 +125,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VarEx1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="java_basic.var.VarEx1" />
+    <configuration name="Switch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java_basic.if_else_switch.Switch" />
       <module name="java-start" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="java_basic.var.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="VarEx2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="java_basic.var.VarEx2" />
-      <module name="java-start" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="java_basic.var.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="VarEx3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="java_basic.var.VarEx3" />
-      <module name="java-start" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="java_basic.var.*" />
+          <option name="PATTERN" value="java_basic.if_else_switch.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,11 +140,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CondOp" />
+        <item itemvalue="Application.Switch" />
+        <item itemvalue="Application.If_else" />
         <item itemvalue="Application.OperatorEx1" />
         <item itemvalue="Application.Operator1" />
-        <item itemvalue="Application.VarEx3" />
-        <item itemvalue="Application.VarEx2" />
-        <item itemvalue="Application.VarEx1" />
       </list>
     </recent_temporary>
   </component>
@@ -159,7 +166,7 @@
       <updated>1713110483690</updated>
       <workItem from="1713110485558" duration="334000" />
       <workItem from="1713357678345" duration="6020000" />
-      <workItem from="1713523981288" duration="7841000" />
+      <workItem from="1713523981288" duration="16706000" />
     </task>
     <servers />
   </component>
