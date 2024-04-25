@@ -5,13 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7e890c2e-5d01-451b-afa9-00e5ba3b6cde" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/java_basic/if_else_switch/CondOp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/java_basic/if_else_switch/IfEx1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/java_basic/if_else_switch/IfEx2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/java_basic/if_else_switch/If_else.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/java_basic/if_else_switch/Switch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java_basic/loop/For.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java_basic/loop/LoopEx1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java_basic/loop/LoopEx2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java_basic/loop/While.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java_basic/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/java_basic/readme.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,9 +39,12 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.CondOp.executor": "Run",
+    "Application.For.executor": "Run",
     "Application.HelloJava.executor": "Run",
     "Application.HelloJava2.executor": "Run",
     "Application.If_else.executor": "Run",
+    "Application.LoopEx1.executor": "Run",
+    "Application.LoopEx2.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.Operator1.executor": "Run",
     "Application.OperatorEx1.executor": "Run",
@@ -53,6 +54,7 @@
     "Application.VarEx2.executor": "Run",
     "Application.VarEx3.executor": "Run",
     "Application.VarType.executor": "Run",
+    "Application.While.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
@@ -72,7 +74,7 @@
       <recent name="$PROJECT_DIR$/src/java_basic" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CondOp">
+  <component name="RunManager" selected="Application.LoopEx2">
     <configuration name="CondOp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="java_basic.if_else_switch.CondOp" />
       <module name="java-start" />
@@ -86,12 +88,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="If_else" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="java_basic.if_else_switch.If_else" />
+    <configuration name="For" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java_basic.loop.For" />
       <module name="java-start" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="java_basic.if_else_switch.*" />
+          <option name="PATTERN" value="java_basic.loop.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -99,12 +101,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Operator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="java_basic.operator.Operator" />
+    <configuration name="LoopEx1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java_basic.loop.LoopEx1" />
       <module name="java-start" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="java_basic.operator.*" />
+          <option name="PATTERN" value="java_basic.loop.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,12 +114,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OperatorEx1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="java_basic.operator.OperatorEx1" />
+    <configuration name="LoopEx2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java_basic.loop.LoopEx2" />
       <module name="java-start" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="java_basic.operator.*" />
+          <option name="PATTERN" value="java_basic.loop.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,12 +127,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Switch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="java_basic.if_else_switch.Switch" />
+    <configuration name="While" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java_basic.loop.While" />
       <module name="java-start" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="java_basic.if_else_switch.*" />
+          <option name="PATTERN" value="java_basic.loop.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -140,11 +142,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LoopEx2" />
+        <item itemvalue="Application.LoopEx1" />
+        <item itemvalue="Application.For" />
+        <item itemvalue="Application.While" />
         <item itemvalue="Application.CondOp" />
-        <item itemvalue="Application.Switch" />
-        <item itemvalue="Application.If_else" />
-        <item itemvalue="Application.OperatorEx1" />
-        <item itemvalue="Application.Operator1" />
       </list>
     </recent_temporary>
   </component>
@@ -166,7 +168,8 @@
       <updated>1713110483690</updated>
       <workItem from="1713110485558" duration="334000" />
       <workItem from="1713357678345" duration="6020000" />
-      <workItem from="1713523981288" duration="16706000" />
+      <workItem from="1713523981288" duration="17418000" />
+      <workItem from="1714050806311" duration="2959000" />
     </task>
     <servers />
   </component>
