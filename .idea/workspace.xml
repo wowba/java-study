@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7e890c2e-5d01-451b-afa9-00e5ba3b6cde" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/java_basic/loop/For.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/java_basic/loop/LoopEx1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/java_basic/loop/LoopEx2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/java_basic/loop/While.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java_basic/scope/Scope.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java_basic/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/java_basic/readme.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -169,7 +167,7 @@
       <workItem from="1713110485558" duration="334000" />
       <workItem from="1713357678345" duration="6020000" />
       <workItem from="1713523981288" duration="17418000" />
-      <workItem from="1714050806311" duration="2959000" />
+      <workItem from="1714050806311" duration="5847000" />
     </task>
     <servers />
   </component>
