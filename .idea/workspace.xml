@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7e890c2e-5d01-451b-afa9-00e5ba3b6cde" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/java_basic/casting/Casting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java_basic/array/EnhancedFor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java_basic/array/TwoDArr.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java_basic/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/java_basic/readme.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +38,7 @@
   "keyToString": {
     "Application.Casting.executor": "Run",
     "Application.CondOp.executor": "Run",
+    "Application.EnhancedFor.executor": "Run",
     "Application.For.executor": "Run",
     "Application.HelloJava.executor": "Run",
     "Application.HelloJava2.executor": "Run",
@@ -49,6 +50,7 @@
     "Application.OperatorEx1.executor": "Run",
     "Application.Problem.executor": "Run",
     "Application.Switch.executor": "Run",
+    "Application.TwoDArr.executor": "Run",
     "Application.Var1.executor": "Debug",
     "Application.VarEx2.executor": "Run",
     "Application.VarEx3.executor": "Run",
@@ -58,6 +60,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/jjhav/OneDrive/바탕 화면/java-study",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -73,7 +76,7 @@
       <recent name="$PROJECT_DIR$/src/java_basic" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Casting">
+  <component name="RunManager" selected="Application.EnhancedFor">
     <configuration name="Casting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="java_basic.casting.Casting" />
       <module name="java-start" />
@@ -87,12 +90,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="For" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="java_basic.loop.For" />
+    <configuration name="EnhancedFor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java_basic.array.EnhancedFor" />
       <module name="java-start" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="java_basic.loop.*" />
+          <option name="PATTERN" value="java_basic.array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,12 +129,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="While" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="java_basic.loop.While" />
+    <configuration name="TwoDArr" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java_basic.array.TwoDArr" />
       <module name="java-start" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="java_basic.loop.*" />
+          <option name="PATTERN" value="java_basic.array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -141,11 +144,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EnhancedFor" />
+        <item itemvalue="Application.TwoDArr" />
         <item itemvalue="Application.Casting" />
         <item itemvalue="Application.LoopEx2" />
         <item itemvalue="Application.LoopEx1" />
-        <item itemvalue="Application.For" />
-        <item itemvalue="Application.While" />
       </list>
     </recent_temporary>
   </component>
@@ -169,6 +172,7 @@
       <workItem from="1713357678345" duration="6020000" />
       <workItem from="1713523981288" duration="17418000" />
       <workItem from="1714050806311" duration="7269000" />
+      <workItem from="1714348943949" duration="3113000" />
     </task>
     <servers />
   </component>
