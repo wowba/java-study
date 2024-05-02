@@ -5,13 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7e890c2e-5d01-451b-afa9-00e5ba3b6cde" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/java_basic/ref/Method.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/java_basic/ref/Ref1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/java_basic/ref/Ref2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/java_basic/ref/Ref3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/java_basic/ref/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java_basic/ref/Ex1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java_basic/ref/Null.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/java_basic/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/java_basic/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java_basic/ref/Method.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java_basic/ref/Method.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java_basic/ref/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java_basic/ref/Student.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +45,7 @@
     "Application.ClassAndObjEx2.executor": "Run",
     "Application.CondOp.executor": "Run",
     "Application.EnhancedFor.executor": "Run",
+    "Application.Ex1.executor": "Run",
     "Application.For.executor": "Run",
     "Application.HelloJava.executor": "Run",
     "Application.HelloJava2.executor": "Run",
@@ -54,6 +54,7 @@
     "Application.LoopEx2.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.Method.executor": "Run",
+    "Application.Null.executor": "Run",
     "Application.Operator1.executor": "Run",
     "Application.OperatorEx1.executor": "Run",
     "Application.Problem.executor": "Run",
@@ -86,13 +87,13 @@
       <recent name="$PROJECT_DIR$/src/java_basic" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Ref3">
-    <configuration name="ClassAndObjEx1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="java_basic.class_and_obj.ClassAndObjEx1" />
+  <component name="RunManager" selected="Application.Ex1">
+    <configuration name="Ex1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java_basic.ref.Ex1" />
       <module name="java-start" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="java_basic.class_and_obj.*" />
+          <option name="PATTERN" value="java_basic.ref.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -100,12 +101,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ClassAndObjEx2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="java_basic.class_and_obj.ClassAndObjEx2" />
+    <configuration name="Method" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java_basic.ref.Method" />
       <module name="java-start" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="java_basic.class_and_obj.*" />
+          <option name="PATTERN" value="java_basic.ref.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,8 +114,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ref1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="java_basic.ref.Ref1" />
+    <configuration name="Null" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java_basic.ref.Null" />
       <module name="java-start" />
       <extension name="coverage">
         <pattern>
@@ -154,11 +155,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Ex1" />
+        <item itemvalue="Application.Null" />
+        <item itemvalue="Application.Method" />
         <item itemvalue="Application.Ref3" />
         <item itemvalue="Application.Ref2" />
-        <item itemvalue="Application.Ref1" />
-        <item itemvalue="Application.ClassAndObjEx2" />
-        <item itemvalue="Application.ClassAndObjEx1" />
       </list>
     </recent_temporary>
   </component>
