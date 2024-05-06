@@ -5,16 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7e890c2e-5d01-451b-afa9-00e5ba3b6cde" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/java_basic/access/Speaker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/java_basic/access/SpeakerMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/java_basic/access/a/AccessData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/java_basic/access/a/AccessInnerMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/java_basic/access/b/AccessOuterMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/java_basic/access/ex/Item.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/java_basic/access/ex/MaxCounter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/java_basic/access/ex/MaxCounterMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/java_basic/access/ex/ShoppingCart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/java_basic/access/ex/ShoppingCartMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java_basic/memory/Data.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java_basic/memory/DataMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java_basic/memory/StackMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java_basic/memory/ex/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java_basic/memory/ex/CarMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java_basic/memory/ex/Math.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java_basic/memory/ex/MathMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/java_basic/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/java_basic/readme.md" afterDir="false" />
     </list>
@@ -49,10 +46,12 @@
     "Application.AccountMain.executor": "Run",
     "Application.Array.executor": "Run",
     "Application.BookMain.executor": "Run",
+    "Application.CarMain.executor": "Run",
     "Application.Casting.executor": "Run",
     "Application.ClassAndObjEx.executor": "Run",
     "Application.ClassAndObjEx2.executor": "Run",
     "Application.CondOp.executor": "Run",
+    "Application.DataMain.executor": "Run",
     "Application.EnhancedFor.executor": "Run",
     "Application.Ex1.executor": "Run",
     "Application.For.executor": "Run",
@@ -62,6 +61,7 @@
     "Application.LoopEx1.executor": "Run",
     "Application.LoopEx2.executor": "Run",
     "Application.Main.executor": "Run",
+    "Application.MathMain.executor": "Run",
     "Application.MaxCounterMain.executor": "Run",
     "Application.Method.executor": "Run",
     "Application.Mp.executor": "Run",
@@ -76,6 +76,7 @@
     "Application.Ref3.executor": "Run",
     "Application.ShoppingCartMain.executor": "Run",
     "Application.SpeakerMain.executor": "Run",
+    "Application.Stack.executor": "Run",
     "Application.Switch.executor": "Run",
     "Application.ValueDataMain.executor": "Run",
     "Application.ValueDataOOP.executor": "Run",
@@ -104,13 +105,13 @@
       <recent name="$PROJECT_DIR$/src/java_basic" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ShoppingCartMain">
-    <configuration name="AccessOuterMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="java_basic.access.b.AccessOuterMain" />
+  <component name="RunManager" selected="Application.MathMain">
+    <configuration name="CarMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java_basic.memory.ex.CarMain" />
       <module name="java-start" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="java_basic.access.b.*" />
+          <option name="PATTERN" value="java_basic.memory.ex.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,12 +119,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BookMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="java_basic.construct.ex.BookMain" />
+    <configuration name="DataMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java_basic.memory.DataMain" />
       <module name="java-start" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="java_basic.construct.ex.*" />
+          <option name="PATTERN" value="java_basic.memory.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,12 +132,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaxCounterMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="java_basic.access.ex.MaxCounterMain" />
+    <configuration name="MathMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java_basic.memory.ex.MathMain" />
       <module name="java-start" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="java_basic.access.ex.*" />
+          <option name="PATTERN" value="java_basic.memory.ex.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -157,12 +158,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpeakerMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="java_basic.access.SpeakerMain" />
+    <configuration name="StackMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java_basic.memory.StackMain" />
       <module name="java-start" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="java_basic.access.b.*" />
+          <option name="PATTERN" value="java_basic.memory.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -172,11 +173,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MathMain" />
+        <item itemvalue="Application.CarMain" />
+        <item itemvalue="Application.DataMain" />
+        <item itemvalue="Application.StackMain" />
         <item itemvalue="Application.ShoppingCartMain" />
-        <item itemvalue="Application.MaxCounterMain" />
-        <item itemvalue="Application.AccessOuterMain" />
-        <item itemvalue="Application.SpeakerMain" />
-        <item itemvalue="Application.BookMain" />
       </list>
     </recent_temporary>
   </component>
