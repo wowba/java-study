@@ -5,13 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7e890c2e-5d01-451b-afa9-00e5ba3b6cde" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/java_basic/memory/Data.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/java_basic/memory/DataMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/java_basic/memory/StackMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/java_basic/memory/ex/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/java_basic/memory/ex/CarMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/java_basic/memory/ex/Math.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/java_basic/memory/ex/MathMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java_basic/final1/Data.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java_basic/final1/FinalLocalMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/java_basic/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/java_basic/readme.md" afterDir="false" />
     </list>
