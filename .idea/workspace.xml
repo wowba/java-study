@@ -5,11 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7e890c2e-5d01-451b-afa9-00e5ba3b6cde" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/java_basic/poly/basic/BasicMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/java_basic/poly/basic/CastingMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/java_basic/poly/basic/Child.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/java_basic/poly/basic/Parent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java_basic/poly/expert/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java_basic/poly/expert/AnimalMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java_basic/poly/expert/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java_basic/poly/expert/Caw.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java_basic/poly/expert/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java_basic/poly/interface1/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java_basic/poly/interface1/AnimalMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java_basic/poly/interface1/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java_basic/poly/interface2/Implemenet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java_basic/poly/interface2/InterfaceA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java_basic/poly/interface2/InterfaceB.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java_basic/poly/basic/CastingMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java_basic/poly/basic/CastingMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/java_basic/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/java_basic/readme.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -20,6 +28,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -41,6 +50,7 @@
   "keyToString": {
     "Application.AccessOuterMain.executor": "Run",
     "Application.AccountMain.executor": "Run",
+    "Application.AnimalMain.executor": "Run",
     "Application.Array.executor": "Run",
     "Application.BasicMain.executor": "Run",
     "Application.BookMain.executor": "Run",
@@ -87,6 +97,7 @@
     "Application.While.executor": "Run",
     "Application.java_basic.extends1.ex1.CarMain.executor": "Run",
     "Application.java_basic.extends1.ex2.CarMain.executor": "Run",
+    "Application.java_basic.poly.interface1.AnimalMain.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
@@ -106,7 +117,20 @@
       <recent name="$PROJECT_DIR$/src/java_basic" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BasicMain">
+  <component name="RunManager" selected="Application.java_basic.poly.interface1.AnimalMain">
+    <configuration name="AnimalMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java_basic.poly.expert.AnimalMain" />
+      <module name="java-start" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="java_basic.poly.expert.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="BasicMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="java_basic.poly.basic.BasicMain" />
       <module name="java-start" />
@@ -133,32 +157,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MathMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="java_basic.memory.ex.MathMain" />
-      <module name="java-start" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="java_basic.memory.ex.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="java_basic.extends1.ex1.CarMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="java_basic.extends1.ex1.CarMain" />
-      <module name="java-start" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="java_basic.extends1.ex1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="java_basic.extends1.ex2.CarMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="java_basic.extends1.ex2.CarMain" />
       <module name="java-start" />
@@ -172,13 +170,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="java_basic.poly.interface1.AnimalMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java_basic.poly.interface1.AnimalMain" />
+      <module name="java-start" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="java_basic.poly.interface1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.java_basic.poly.interface1.AnimalMain" />
+        <item itemvalue="Application.AnimalMain" />
         <item itemvalue="Application.BasicMain" />
         <item itemvalue="Application.CastingMain" />
         <item itemvalue="Application.java_basic.extends1.ex2.CarMain" />
-        <item itemvalue="Application.java_basic.extends1.ex1.CarMain" />
-        <item itemvalue="Application.MathMain" />
       </list>
     </recent_temporary>
   </component>
@@ -209,6 +220,8 @@
       <workItem from="1715391545661" duration="672000" />
       <workItem from="1715506029459" duration="5595000" />
       <workItem from="1715522922324" duration="1786000" />
+      <workItem from="1715643610602" duration="4427000" />
+      <workItem from="1715668313561" duration="5111000" />
     </task>
     <servers />
   </component>

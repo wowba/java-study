@@ -10,6 +10,8 @@ public class CastingMain {
         Child child = (Child) poly;
         child.childMethod();
         child.parentMethod();
+        // poly.childMethod; 다형적 참조시 자식 메서드는 사용할 수 없다.
+        // 사용하기 위해선 아래처럼 다운캐스팅을 해야한다.
         
         // 일시적 다운 캐스팅
         // 별도의 변수 없이 인스턴스의 자식 타입의 기능을 사용할 수 있다.
